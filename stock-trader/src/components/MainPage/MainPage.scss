@@ -1,0 +1,28 @@
+
+.main-page {
+    border: 1px solid #e2e2e2;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+
+    .main-page-header {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .description {
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    hr {
+        margin: 20px 0px;
+    }
+
+    .funds {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,47 @@
+
+.header {
+
+    height: 70px;
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #6b6b6b;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+        li {
+            margin: 0 20px;
+            
+            a {
+                text-decoration: none;
+                color: #6b6b6b;
+            }
+        }
+    }
+
+    .stock-traider-header {
+        font-weight: bold;
+        font-size: 20px;   
+    }
+
+    .header-item {
+        font-size: 17px;
+    }
+
+    .end-day-item {
+        cursor: pointer;
+    }
+
+}
+

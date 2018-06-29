@@ -1,0 +1,53 @@
+
+.portfolio-item {
+
+    width: calc(50% - 40px);
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 10px 20px;
+
+    .portfolio-header {
+        background: #b7ffc1;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        .stock-price-quantity {
+            font-size: 11px;
+            margin-left: 5px;
+        }
+
+        .stock-name {
+            font-size: 16px;
+        }
+
+    }
+
+    .portfolio-input {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
+
+        input[type="number"] {
+           height: 30px;
+           padding: 0 10px; 
+        }
+
+        button {
+            height: 30px;
+            border-radius: 4px;
+            background: #b7ffc1;
+            outline: 0;
+            border: 1px solid #f98989;
+            width: 100px;
+            cursor: pointer;
+        }
+
+    }
+
+}

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import StockTraider from './components/StockTraider/StockTraider';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        TEST APP
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <StockTraider/>
+        </div>
+      </BrowserRouter>
     );
   }
 }
